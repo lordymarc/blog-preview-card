@@ -61,6 +61,9 @@ body{
 
   color: var(--dark-grey);
   font-family: 'Figtree', serif;
+  /* turns out we were supposed to add quotation marks around
+  font-family's name haaya so bothersome. thank god i accidentally clicked
+  on the google font url */
   font-weight: var(--medium);
   line-height: 150%;
   letter-spacing: 0px;
