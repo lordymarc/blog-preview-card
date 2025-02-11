@@ -70,8 +70,12 @@ body{
   width: 100%; 
   display: block;
   /* the default value of images is inline-block,
-  hence it gave us a weird extra space below like tf we succesfully removed it */
-  border-radius: calc(10rem / 16); 
+  hence it gave us a weird extra space below like tf we succesfully removed it */ 
+  overflow: hidden;
+  /* to have the image inside the container (wack explanation)
+  yeah we needed a border-radius but the parent element alr had it so 
+  the image overflew technically cus we literally placed the image
+  inside like yo where it was going lol */
 }
 
 .text-container{
