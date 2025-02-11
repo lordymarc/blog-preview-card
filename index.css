@@ -60,7 +60,7 @@ body{
   box-shadow: 8px 8px 0px;
 
   color: var(--dark-grey);
-  font-family: Figtree, serif;
+  font-family: 'Figtree', serif;
   font-weight: var(--medium);
   line-height: 150%;
   letter-spacing: 0px;
